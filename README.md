@@ -21,5 +21,7 @@ USB on the board(the one next to the HDMI connector).
 ```
 cd pizero-usb-hid-keyboard
 echo 'left-shift h' | ./hid_gadget_test /dev/hidg0 keyboard
+echo 'i' | ./hid_gadget_test /dev/hidg0 keyboard
 ```
 9. Success!
+10. Look at https://github.com/raspberrypisig/pizero-usb-hid-keyboard/blob/master/hid-gadget-test.c for what is allowed
