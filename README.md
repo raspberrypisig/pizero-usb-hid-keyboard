@@ -9,7 +9,7 @@ Tested on Raspberry Pi Zero W and a Windows 10 PC (version 1809).
 1. Started with a clean install of Raspbian Buster
 2. Used a Raspberry Pi 3 to setup wifi/keyboard/enable SSH/apt update etc.
 3. Then took SD card out and put into Pi Zero W and booted.
-4. Ran the following (after which the pi will power off):
+4. SSHed into Pi and ran the following (after which the pi will power off):
 
 ```sh
 curl -sSL https://raw.githubusercontent.com/raspberrypisig/pizero-usb-hid-keyboard/master/install.sh | sudo bash -
