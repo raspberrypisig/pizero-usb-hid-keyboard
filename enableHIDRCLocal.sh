@@ -7,7 +7,7 @@ cp /etc/rc.local /etc/rc.local.bak
 cat<<EOF > /etc/rc.local
 #!/usr/bin/env bash
 
-/home/pi/usb-hid-keyboard/rpi-hid.sh
+/home/pi/pizero-usb-hid-keyboard/rpi-hid.sh
 chmod 777 /dev/hidg0
 
 exit 0
