@@ -24,6 +24,6 @@ USB on the board(the one next to the HDMI connector).
 
 ```
 cd pizero-usb-hid-keyboard
-echo 'left-shift h' | /home/pi/pizero-usb-hid-keyboard/hid_gadget_test /dev/hidg0 keyboard
+echo 'left-shift h' | ./hid_gadget_test /dev/hidg0 keyboard
 ```
 9. Success!
