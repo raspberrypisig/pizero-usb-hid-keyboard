@@ -25,5 +25,5 @@ cd pizero-usb-hid-keyboard
 echo 'left-shift h' | ./hid_gadget_test /dev/hidg0 keyboard
 echo 'i' | ./hid_gadget_test /dev/hidg0 keyboard
 ```
-9. Success!
+9. Success! Should see **Hi** in notepad
 10. Look at https://github.com/raspberrypisig/pizero-usb-hid-keyboard/blob/master/hid-gadget-test.c#L20 for what is possible.
