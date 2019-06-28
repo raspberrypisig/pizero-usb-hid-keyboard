@@ -20,10 +20,17 @@ USB on the board(the one next to the HDMI connector). Plug other end to Windows 
 7. On Windows, open notepad
 8. Using another computer, I ssh'd into pi and ran 
 
-```
+```sh
 cd pizero-usb-hid-keyboard
 echo 'left-shift h' | ./hid_gadget_test /dev/hidg0 keyboard
 echo 'i' | ./hid_gadget_test /dev/hidg0 keyboard
 ```
+
+or alternatively
+```sh
+/home/pi/pizero-usb-hid-keyboard/sendkeys.sh left-shift h
+/home/pi/pizero-usb-hid-keyboard/sendkeys.sh i
+```
+
 9. Success! Should see **Hi** in notepad
 10. Look at https://github.com/raspberrypisig/pizero-usb-hid-keyboard/blob/master/hid-gadget-test.c#L20 for what is possible.
