@@ -22,14 +22,15 @@ USB on the board(the one next to the HDMI connector). Plug other end to Windows 
 
 ```sh
 cd pizero-usb-hid-keyboard
-echo 'left-shift h' | ./hid_gadget_test /dev/hidg0 keyboard
-echo 'i' | ./hid_gadget_test /dev/hidg0 keyboard
+echo 'left-shift h' | ./hid-gadget-test /dev/hidg0 keyboard
+echo 'i' | ./hid-gadget-test /dev/hidg0 keyboard
 ```
 
 or alternatively
+
 ```sh
-/home/pi/pizero-usb-hid-keyboard/sendkeys.sh left-shift h
-/home/pi/pizero-usb-hid-keyboard/sendkeys.sh i
+./sendkeys left-shift h
+./sendkeys i
 ```
 
 9. Success! Should see **Hi** in notepad
