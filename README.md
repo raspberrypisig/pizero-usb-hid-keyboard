@@ -12,7 +12,7 @@ Tested on Raspberry Pi Zero W and a Windows 10 PC (version 1809).
 4. SSHed into Pi and ran the following (after which the pi will power off):
 
 ```sh
-curl -sSL https://raw.githubusercontent.com/raspberrypisig/pizero-usb-hid-keyboard/master/install.sh | sudo bash -
+curl -sSL https://raw.githubusercontent.com/mtlynch/pizero-usb-hid-keyboard/master/install.sh | sudo bash -
 ```
 5. When pi is off, remove power supply and use an ORDINARY(not OTG cable) microUSB to USB cable and plug it in to the USB connector marked
 USB on the board(the one next to the HDMI connector). Plug other end to Windows PC.
@@ -34,4 +34,4 @@ or alternatively
 ```
 
 9. Success! Should see **Hi** in notepad
-10. Look at https://github.com/raspberrypisig/pizero-usb-hid-keyboard/blob/master/hid-gadget-test.c#L20 for what is possible.
+10. Look at https://github.com/mtlynch/pizero-usb-hid-keyboard/blob/master/hid-gadget-test.c#L20 for what is possible.
