@@ -3,6 +3,8 @@
 
 # this is a stripped down version of https://github.com/ckuethe/usbarmory/wiki/USB-Gadgets - I don't claim any rights
 
+set -eux
+
 modprobe libcomposite
 cd /sys/kernel/config/usb_gadget/
 mkdir -p g1
