@@ -28,8 +28,8 @@ echo 'i' | ./hid_gadget_test /dev/hidg0 keyboard
 
 or alternatively
 ```sh
-/home/pi/pizero-usb-hid-keyboard/sendkeys.sh left-shift h
-/home/pi/pizero-usb-hid-keyboard/sendkeys.sh i
+/home/pi/pizero-usb-hid-keyboard/sendkeys left-shift h
+/home/pi/pizero-usb-hid-keyboard/sendkeys i
 ```
 
 9. Success! Should see **Hi** in notepad
